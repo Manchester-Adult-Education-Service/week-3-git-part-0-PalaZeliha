@@ -19,6 +19,8 @@
 #
 # 👉 Good variable names describe what they store (fruit, colour).
 
+
+
 # TODO:
 # 1. Create three variables with values of your choice:
 #    - favourite_sport (string)
@@ -27,6 +29,18 @@
 # 2. Print out 3 separate sentences using these variables with f-strings.
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
+
+favourite_sport = "football"
+favourite_number = 5
+favourite_food = "cake"
+team = "Manchester United"
+
+print(f"I play  {favourite_sport} in {team}!")
+print(f"My number is  {favourite_number} and I like {favourite_food}!")
+
+print(" ")
+
+
 
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
@@ -39,6 +53,9 @@
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
 
+city = input("Where do you live? ")
+car = input("Do you have a car?")
+
 # Step 3: Combine Variables and Input
 # -----------------------------------
 # You can mix input variables with "pre-set" variables.
@@ -49,10 +66,15 @@
 # current_year = 2025
 # print(f"In {current_year}, you are living in {city}.")
 
+
 # TODO:
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
 # 3. Print a message showing their age and the current year
+
+country = "UK"
+current_year = 2025
+print(f"In {current_year}, I am living in {country}.")
 
 # -------------------------------------------
 # Git Task: Submit your work!
@@ -93,6 +115,14 @@
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+friend1 = "Alan"
+current_year = 2025
+age = int(input(f"Hold are  you, {friend1} ?"))
+
+current_age = age + 5
+future_year =  current_year + 5
+
+print(f" In {future_year} , {friend1} will be {current_age} years old")
 
 # -------------------------------------------
 # Git Task: Submit your work!
